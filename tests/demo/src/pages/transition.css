@@ -1,0 +1,29 @@
+.enter-from {
+  opacity: 0;
+  transform: translateX(-200px);
+}
+
+.enter-active {
+  transition: all .3s ease-in-out;
+  transition-duration: 1500ms;
+}
+
+.enter-to {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.leave-from {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.leave-active {
+  transition: all .3s ease-in-out;
+  transition-duration: 750ms;
+}
+
+.leave-to {
+  opacity: 0;
+  transform: translateX(200px);
+}

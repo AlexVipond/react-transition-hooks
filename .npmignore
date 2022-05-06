@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Except these files
+!lib/**/*.js
+!lib/**/*.ts
+!lib/**/*.cjs
+!types/**/*.ts
